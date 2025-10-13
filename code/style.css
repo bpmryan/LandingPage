@@ -5,7 +5,6 @@
     color: #f9faf8;
     font-size: 24px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
     background-color: #1f2937;
     padding: 10px 50px;
 }
@@ -63,7 +62,7 @@ button {
     height: 30px;
 }
 
-button a{
+button a {
     color: white;
     text-decoration: none;
 }
@@ -72,23 +71,50 @@ button:hover {
     background-color: darkblue;
 }
 
+button:visited {
+    background-color: white;
+}
+
 .heroButton {
     border: none;
 }
 
-.bottomButton{
+.bottomButton {
     border-color: white;
 }
 
 /* Third section */
-div h2 {
-    display: flex;
-    justify-content: center;
+.reedH2 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.box div{
+.reedGal {
     display: flex;
     flex-direction: row;
-    
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Quote section */
+.quoteSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e5e7eb
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    weight: 300;
+}
