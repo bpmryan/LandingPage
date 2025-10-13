@@ -26,11 +26,14 @@
     <div class="hero">
         <h1>This website is awesome</h1>
         <p class="heroText">Click the <strong>blue "Add your information" button</strong> to send your information to
-            this guy. You should give your information to him. It is all for the greater good.</p>
+            this guy. You should give your information to him. It is all for the greater good. Don't believe me, check
+            out the <strong>header links</strong> at the top right of this page.</p>
         <button class="heroButton"> <a href="https://abobbyreed.com/">Add your information</a></button>
-        <!-- Actually add an image into media folder and change the src link and alt text -->
-        <!-- Image should go on the right side of the page -->
-        <img class="heroImg" src="../media/bobbyReed.jpg" alt="Professor Bobby Reed">
+        <div class="heroImg">
+            <!-- Image should go on the right side of the page -->
+            <img src="../media/bobbyReed.jpg" alt="Professor Bobby Reed">
+        </div>
+
     </div>
 
     <!-- 3rd section -->
@@ -66,25 +69,38 @@
     </div>
 
     <!-- 4th section -->
-    <div class = "quoteSection">
-        <div class = "quote">
-            <p>"Inspirational quote by some random person"</p>
+    <div class="quoteSection">
+        <div class="quote">
+            <p>"Human creature who likes working with things that eat electricity."</p>
         </div>
-        <div>
-            <p>- Random person</p>
+        <div class="quoteAuthor">
+            <p>- Bobby Reed, M.S.</p>
         </div>
     </div>
 
     <!-- 5th section -->
-    <div>
-        <p>Call to action! It's time!</p>
-        <p>You should give your information to this guy by clicking the button right over there!</p>
-        <button class="bottomButton">Sign up</button>
-    </div>
+    <card class = "card">
+        <div class="blueBox p">
+            <div class = "blueBoxHead">
+                <p>Call to action! It's time!</p>
+            </div>
+            <div>
+                <p>You should give your information to this guy by clicking the button right over there!</p>
+            </div>
+            <div>
+                <button class="blueBoxButton"><a href="https://abobbyreed.com/">Add your information</a></button>
+            </div>
+        </div>
+    </card>
 
     <!-- Footer -->
-    <div>
-        <p>Copyright </p>
+    <div class="footer">
+        <div>
+            <p>Copyright </p>
+        </div>
+        <div>
+            <p>The man, the myth, the legend! 2025</p>
+        </div>   
     </div>
 </body>
 

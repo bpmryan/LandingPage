@@ -42,13 +42,16 @@
 .heroText {
     font-size: 15px;
     color: rgb(154, 153, 153);
+    text-align: left;
 }
 
 .heroImg {
+    display: flex;
+    justify-content: flex-end;
     align-self: flex-end;
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
 }
 
 /* Buttons section */
@@ -73,13 +76,14 @@ button:hover {
 
 button:visited {
     background-color: white;
+    text-decoration: none;
 }
 
 .heroButton {
     border: none;
 }
 
-.bottomButton {
+.blueBoxButton {
     border-color: white;
 }
 
@@ -95,11 +99,12 @@ button:visited {
     gap: 20px;
     justify-content: center;
     padding: 20px;
+    text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-img {
-    width: 200px;
+.reedGal img {
+    max-width: 100%;
     height: 200px;
     border-radius: 10px;
 }
@@ -107,14 +112,53 @@ img {
 /* Quote section */
 .quoteSection {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction:column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #e5e7eb
+    background-color: #e5e7eb;
+    padding: 50px;
 }
 
 .quote {
+    align-content: center;
     font-size: 36px;
     color: #1f2937;
-    weight: 300;
+}
+
+.quoteAuthor {
+    font-size: 24px;
+    text-align: right;
+}
+
+/* 5th section */
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    width: 900px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.blueBox p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.blueBoxHead {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    align-content: center;
+    
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 12px;
 }
