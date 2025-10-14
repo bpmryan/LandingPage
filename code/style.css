@@ -31,15 +31,18 @@
 /* Applies to hero section */
 .hero {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: #f9faf8;
     font-size: 18px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #1f2937;
     padding: 10px 50px;
+
 }
 
 .heroText {
+    display: flex;
+    flex-direction: column;
     font-size: 15px;
     color: rgb(154, 153, 153);
     text-align: left;
@@ -80,6 +83,8 @@ button:visited {
 }
 
 .heroButton {
+    display: flex;
+    flex-direction: column;
     border: none;
 }
 
