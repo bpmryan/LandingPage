@@ -1,0 +1,198 @@
+* {
+    margin: 0px;
+}
+
+/* Applies to only nav bar stuff */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color: #f9faf8;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1f2937;
+    padding: 10px 50px;
+}
+
+.nav p {
+    font-weight: bold;
+}
+
+.navLinks {
+    display: flex;
+    gap: 20px;
+}
+
+.navLinks a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: grey;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: right;
+}
+
+/* Applies to hero section */
+.hero {
+    display: flex;
+    flex-direction: row;
+    color: #f9faf8;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1f2937;
+    padding: 10px 50px;
+    gap: 20px;
+}
+
+.heroText {
+    /* display: flex; */
+    /* flex-direction: column; */
+    font-size: 15px;
+    color: rgb(154, 153, 153);
+    /* text-align: left; */
+}
+
+.heroImg {
+    width: 50%;
+    height: 50%;
+    border-radius: 10%;
+}
+
+/* Buttons section */
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+button:visited {
+    background-color: white;
+    text-decoration: none;
+}
+
+.heroButton {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+}
+
+.blueBoxButton {
+    align-self: center;
+}
+
+.blueBoxButton button {
+    border-color: white;
+}
+
+/* Third section */
+.reedH2 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.reedGal {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.reedGal img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Quote section */
+.quoteSection {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.quote {
+    align-content: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quoteAuthor {
+    font-size: 24px;
+    text-align: right;
+}
+
+/* 5th section */
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #3882f6;
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.card p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.blueBox{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 10px
+}
+
+.blueBoxHead {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.blueBoxText {
+    font-size: 15px;
+    font-weight: none;
+    color: rgb(207, 205, 205);
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px;
+    
+}
+
+/* copyright sign */
+.copyright::before {
+    content: "\00A9";
+    margin-left: 5px;
+    margin-right: 5px;
+}
