@@ -3,7 +3,10 @@
 }
 
 /* Applies to only nav bar stuff */
-.nav {
+nav {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
     display: flex;
     justify-content: space-between;
     color: #f9faf8;
@@ -13,7 +16,7 @@
     padding: 10px 50px;
 }
 
-.nav p {
+nav p {
     font-weight: bold;
 }
 
@@ -42,6 +45,7 @@
     background-color: #1f2937;
     padding: 10px 50px;
     gap: 20px;
+    margin-bottom: 50px;
 }
 
 .heroText {
@@ -91,7 +95,7 @@ button:visited {
 }
 
 .blueBoxButton button {
-    border-color: white;
+    border: 2px solid white;
 }
 
 /* Third section */
@@ -108,6 +112,7 @@ button:visited {
     padding: 20px;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 50px;
 }
 
 .reedGal img {
@@ -123,6 +128,7 @@ button:visited {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #e5e7eb;
     padding: 50px;
+    margin-bottom: 50px;
 }
 
 .quote {
@@ -148,13 +154,14 @@ button:visited {
     padding: 20px;
     margin: 20px auto;
     gap: 20px;
+    margin-bottom: 50px;
 }
 
 .card p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.blueBox{
+.blueBox {
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -174,7 +181,7 @@ button:visited {
 }
 
 /* footer */
-.footer {
+footer {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -183,7 +190,7 @@ button:visited {
     font-size: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 30px;
-    
+
 }
 
 /* copyright sign */
