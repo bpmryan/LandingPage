@@ -45,21 +45,17 @@
 }
 
 .heroText {
-    /* display: flex; */
-    /* flex-direction: column; */
     font-size: 15px;
     color: rgb(154, 153, 153);
-    /* text-align: left; */
 }
 
-.heroImg {
-    width: 50%;
-    height: 50%;
+.hero img {
+    width: 100%;
+    height: 100%;
     border-radius: 10%;
 }
 
 /* Buttons section */
-
 button {
     background-color: #3882f6;
     color: #f9faf8;
